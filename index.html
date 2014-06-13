@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>maintenance console</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>cloud platform console</h1>
+        <p class="lead">This is a cloud management console for in-house.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>login form</h2>
+            <form class="login_form" id="login_form" method="post" action="login.do">
+              <div class="input-group">
+                <span class="input-group-addon">email</span>
+                <input class="form-control" type="text" name="email" value="email@address">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon">password</span>
+                <input class="form-control" type="password" name="password" value="********">
+              </div>
+              <button type="submit" class="btn btn-default">login</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h2>system status</h2>
+          
+          <div>cpu : OK</div>
+          <div>disk : OK</div>
+          <div>network : OK</div>
+        </div>
+
+        <div class="col-md-6">
+          <h2>sensors log</h2>
+          <div><img src="http://gyazo.com/bb37905ed88bcd855afeec15f78471b6.png"></div>
+        </div>
+
+        <div class="col-md-6">
+          <h2>sensors log</h2>
+          <div><img src="http://gyazo.com/089bd3835587adfc350c630ca2103d34.png"></div>
+        </div>
+
+      </div> <!-- class="row" -->
+    </div> <!-- class="container" -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
