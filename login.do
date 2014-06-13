@@ -6,7 +6,7 @@
 # usage?
 #   $ sudo apt-get install ruby
 #   $ cd /var/www/html
-#   $ git checkout https://github.com/yoggy/login.do.git
+#   $ git clone https://github.com/yoggy/login.do.git
 #   $ cd login.do
 #   $ chown +x login.do
 #   $ sudo touch login_log.json && sudo chown www-data:www-data login_log.json

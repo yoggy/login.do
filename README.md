@@ -1,5 +1,5 @@
 login.do
 ========
-login.do is a small honey pot system.
+login.do is a small honeypot system.
 
 
