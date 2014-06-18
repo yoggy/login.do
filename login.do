@@ -13,6 +13,7 @@
 #   
 require 'cgi'
 require 'json'
+require 'time'
 
 logfile = 'log.json'
 
@@ -22,7 +23,8 @@ env_keys = %w(REMOTE_ADDR REMOTE_PORT REQUEST_METHOD HTTP_USER_AGENT)
 
 cgi = CGI.new
 json = {}
-json["_t"]     = Time.now.to_i
+json["_t"] = Time.now.to_i
+json["t"]  = Time.now.iso8601
 env_keys.each do |k|
   json[k] = ENV[k] if ENV.key?(k)
 end
